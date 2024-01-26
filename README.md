@@ -1,6 +1,6 @@
 # Recovery Club America Software Engineer Interview Project
 
-Create a simple login page that autenticates a user and says on another page that you have successfully logged in. From that login page create a way for to create a new login of username and password. You can use any languages (PHP, HTML, CSS, JavasScript, etc.) or any frameworks (React, Bootstrap, Flutter, Angular, Vue.js, Ajax, JQuery, etc.) To make it easier for authentication you do not need store the data outside the project so they can be hard coded like testing.
+Create a simple login page that autenticates a user and says on another page that you have successfully logged in. From that login page create a way for to create a new login of username and password. You can use any languages (PHP, HTML, CSS, JavasScript, Node.js etc.) or any frameworks (React, Bootstrap, Flutter, Angular, Vue.js, Ajax, JQuery, etc.) To make it easier for authentication you do not need store the data outside the project so they can be hard coded like testing.
 
 ## Installation
 You can do local hosting however you would like. We utilize MAMP Pro for our project for local hosting as it is really built around our LAMP Stack infrastrcure. You can download the free version of MAMP here: https://www.mamp.info/en/windows/. You can also just spin up a local host from the command line. To get started:
@@ -18,7 +18,7 @@ If you have any questions please reach out to me and I'll help as much as I can.
     1. The login page should have a simple box in the center of the screen the takes a username and password.
     2. It should then authenticate that data however you want to do that.
         Example: On login button pressed javascript runs and gets the data from the form and then checks to see if storedUsername is equal to username captured from form
-    3. If correct it should display on that box that you have logged in successfully
+    3. If correct it should display on that box that you have logged in successfully or go to another page that notifies the user that they have sucessfully logged in.
 
 ### New User page
     1. Create a way for a user to create a new user from the login page
