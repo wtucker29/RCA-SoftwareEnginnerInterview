@@ -3,13 +3,13 @@
 Create a simple login page that autenticates a user and says on another page that you have successfully logged in. From that login page create a way for to create a new login of username and password. You can use any languages (PHP, HTML, CSS, JavasScript, etc.) or any frameworks (React, Bootstrap, Flutter, Angular, Vue.js, Ajax, JQuery, etc.) To make it easier for authentication you do not need store the data outside the project so they can be hard coded like testing.
 
 ## Installation
-You can do local hosting however you would like. We utilize MAMP Pro for our project for local hosting as it is really built around our LAMP Stack infrastrcure. You can download the free version of MAMP here: https://www.mamp.info/en/windows/. You can also just spin up a local host from the command line
+You can do local hosting however you would like. We utilize MAMP Pro for our project for local hosting as it is really built around our LAMP Stack infrastrcure. You can download the free version of MAMP here: https://www.mamp.info/en/windows/. You can also just spin up a local host from the command line. To get started:
 
-## Get Started
 ```
 git clone the repo
 git branch <whatever you want to name it>
 ```
+
 Work in your branch. When your done you can push it back so that it creates a new branch in the remote (GitHub). Then let me know when you have completed it by emailing me.
 If you have any questions please reach out to me and I'll help as much as I can.
 
