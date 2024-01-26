@@ -1,6 +1,6 @@
 # Recovery Club America Software Engineer Interview Project
 
-Create a simple login page that autenticates a user and says on another page that you have successfully logged in. From that login page create a way for to create a new login of username and password. You can use any languages (PHP, HTML, CSS, JavasScript, etc.) or any frameworks (React, Bootstrap, Flutter, Angular, Vue.js, etc.) To make it easier for authentication you do not need store the data outside the project so they can be hard coded like testing.
+Create a simple login page that autenticates a user and says on another page that you have successfully logged in. From that login page create a way for to create a new login of username and password. You can use any languages (PHP, HTML, CSS, JavasScript, etc.) or any frameworks (React, Bootstrap, Flutter, Angular, Vue.js, Ajax, JQuery, etc.) To make it easier for authentication you do not need store the data outside the project so they can be hard coded like testing.
 
 ## Installation
 You can do local hosting however you would like. We utilize MAMP Pro for our project for local hosting as it is really built around our LAMP Stack infrastrcure. You can download the free version of MAMP here: https://www.mamp.info/en/windows/. You can also just spin up a local host from the command line.
