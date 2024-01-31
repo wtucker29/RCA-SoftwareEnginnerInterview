@@ -6,11 +6,11 @@ Create a simple login page that autenticates a user and says on another page tha
 You can do local hosting however you would like. We utilize MAMP Pro for our project for local hosting as it is really built around our LAMP Stack infrastrcure. You can download the free version of MAMP here: https://www.mamp.info/en/windows/. You can also just spin up a local host from the command line. To get started:
 
 ```
+fork the repo
 git clone the repo
-git branch <whatever you want to name it>
 ```
 
-Work in your branch. When your done you can push it back so that it creates a new branch in the remote (GitHub). Then let me know when you have completed it by emailing me.
+Then push your new code to the forked repo. Then let me know when you have completed it by emailing me with the link to the code.
 If you have any questions please reach out to me and I'll help as much as I can.
 
 ## Requirements
