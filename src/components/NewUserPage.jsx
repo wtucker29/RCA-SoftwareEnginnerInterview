@@ -19,6 +19,9 @@ const NewUserPage = () => {
     }
 
     setMessage('User successfully registered');
+    setNewUsername('');
+    setNewPassword('');
+    setConfirmPassword('');
   };
 
   return (
