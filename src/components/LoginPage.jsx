@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const LoginPage = ({ setIsAuthenticated }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const storedUsername = 'testuser';
   const storedPassword = 'testpassword';
@@ -12,7 +12,7 @@ const LoginPage = ({ setIsAuthenticated }) => {
   const handleLogin = () => {
     if (username === storedUsername && password === storedPassword) {
       setIsAuthenticated(true);
-      history.push('/success');
+      navigate('/success');
     } else {
       alert('Invalid username or password');
     }
@@ -34,7 +34,7 @@ const LoginPage = ({ setIsAuthenticated }) => {
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={handleLogin}>Login</button>
-      <p>New user? <span onClick={() => history.push('/new-user')} style={{color: 'blue', cursor: 'pointer'}}>Create Account</span></p>
+      <p>New user? <span onClick={() => navigate('/new-user')} style={{color: 'blue', cursor: 'pointer'}}>Create Account</span></p>
     </div>
   );
 
