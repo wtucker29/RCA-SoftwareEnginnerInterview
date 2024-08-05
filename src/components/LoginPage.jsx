@@ -9,7 +9,7 @@ const LoginPage = ({ setIsAuthenticated }) => {
   const storedUsername = 'testuser';
   const storedPassword = 'testpassword';
 
-  const handleLogin => {
+  const handleLogin = () => {
     if (username === storedUsername && password === storedPassword) {
       setIsAuthenticated(true);
       history.push('/success');
