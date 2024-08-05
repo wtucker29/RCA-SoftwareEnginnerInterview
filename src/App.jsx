@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginPage from './components/LoginPage';
 import NewUserPage from './components/NewUserPage';
 import SuccessPage from './components/SuccessPage';
@@ -9,17 +9,14 @@ const App = () => {
 
   return (
     <Router>
-      <Switch>
-        <Route path="/" exact>
-          <LoginPage setIsAuthenticated={setIsAuthenticated} />
-        </Route>
-        <Route path="/new-user">
-          <NewUserPage />
-        </Route>
-        <Route path="/success">
-          {isAuthenticated ? <SuccessPage /> : <LoginPage setIsAuthenticated={setIsAuthenticated} />}
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<LoginPage setIsAuthenticated={setIsAuthenticated} />} />
+        <Route path="/new-user" element={<NewUserPage />} />
+        <Route
+          path="/success"
+          element={isAuthenticated ? <SuccessPage /> : <LoginPage setIsAuthenticated={setIsAuthenticated} />}
+        />
+      </Routes>
     </Router>
   );
 };
